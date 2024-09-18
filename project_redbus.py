@@ -4,7 +4,7 @@ import pymysql
 
 # Function to connect to the MySQL database
 def create_connection():
-    return pymysql.connect(host='127.0.0.1', user='root', passwd='Ammulu@7', database='REDBUS')
+    return pymysql.connect(host='########', user='######', passwd='########', database='REDBUS')
 
 # Function to fetch data from the specified query
 def fetch_data(query, params=None):
